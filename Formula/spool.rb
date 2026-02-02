@@ -23,6 +23,12 @@ class Spool < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/spool --version")
+    output = shell_output("#{bin}/spool --version")
+    # HEAD builds use local version format, stable builds match the tag version
+    if build.head?
+      assert_match(/^\d+\.\d+\.\d+/, output)
+    else
+      assert_match version.to_s, output
+    end
   end
 end
