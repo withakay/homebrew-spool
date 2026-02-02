@@ -4,10 +4,12 @@
 class Spool < Formula
   desc "Spec-driven workflow management for AI-assisted development"
   homepage "https://github.com/withakay/spool"
-  url "https://github.com/withakay/spool/archive/refs/tags/v0.20.8.tar.gz"
-  sha256 "PLACEHOLDER_SHA256"
   license "MIT"
   head "https://github.com/withakay/spool.git", branch: "main"
+
+  # Stable version will be added automatically when first release is published
+  # url "https://github.com/withakay/spool/archive/refs/tags/vX.Y.Z.tar.gz"
+  # sha256 "..."
 
   livecheck do
     url :stable
@@ -24,11 +26,6 @@ class Spool < Formula
 
   test do
     output = shell_output("#{bin}/spool --version")
-    # HEAD builds use local version format, stable builds match the tag version
-    if build.head?
-      assert_match(/^\d+\.\d+\.\d+/, output)
-    else
-      assert_match version.to_s, output
-    end
+    assert_match(/^\d+\.\d+\.\d+/, output)
   end
 end
