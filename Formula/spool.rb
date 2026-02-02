@@ -18,7 +18,7 @@ class Spool < Formula
 
   def install
     cd "spool-rs" do
-      system "cargo", "install", *std_cargo_args
+      system "cargo", "install", *std_cargo_args(path: "crates/spool-cli")
     end
   end
 
