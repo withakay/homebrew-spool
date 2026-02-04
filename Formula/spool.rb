@@ -5,29 +5,29 @@ class Spool < Formula
   desc "Spec-driven workflow management for AI-assisted development"
   homepage "https://github.com/withakay/spool"
   license "MIT"
-  version "0.22.1"
+  version "0.22.2"
 
   on_intel do
     on_macos do
-      url "https://github.com/withakay/spool/releases/download/v0.22.1/spool-v0.22.1-x86_64-apple-darwin.tar.gz"
-      sha256 "1c7c4d41264deb0ec5f04c6c858cbffa6384e5d4fc856c1329c5444a2b30a74a"
+      url "https://github.com/withakay/spool/releases/download/v0.22.2/spool-v0.22.2-x86_64-apple-darwin.tar.gz"
+      sha256 "4c10dec1875c633e413726f676c71a80ae4cc153e7aa942aae9b188eadd2d757"
     end
 
     on_linux do
-      url "https://github.com/withakay/spool/releases/download/v0.22.1/spool-v0.22.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bb9dc36968696bf7266f28b4cba9d084a34d17e9ed2ef0308f46434032a96794"
+      url "https://github.com/withakay/spool/releases/download/v0.22.2/spool-v0.22.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "998fbc7ecbe19d9e94aeb05f8578d280ebcdeb039047b492b09c504dace22bef"
     end
   end
 
   on_arm do
     on_macos do
-      url "https://github.com/withakay/spool/releases/download/v0.22.1/spool-v0.22.1-aarch64-apple-darwin.tar.gz"
-      sha256 "0384a4f222a7ae46bf700facc2075fff51affa2f1494ccfdb37c746f692bc399"
+      url "https://github.com/withakay/spool/releases/download/v0.22.2/spool-v0.22.2-aarch64-apple-darwin.tar.gz"
+      sha256 "074e3d35e188ee8309685c5cb93139c859bf31782ffb722459b046f973a7cbef"
     end
 
     on_linux do
-      url "https://github.com/withakay/spool/releases/download/v0.22.1/spool-v0.22.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "301aadf9c005e345b5782ed44f6bdf4a05ae6d7fcaa26a72669d2bcc97a5e978"
+      url "https://github.com/withakay/spool/releases/download/v0.22.2/spool-v0.22.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2e8275df13a33df84eb981aa90fd842d03e3d6122504ddf2e3bd2793aae33e2e"
     end
   end
 
