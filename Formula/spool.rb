@@ -10,24 +10,24 @@ class Spool < Formula
   on_intel do
     on_macos do
       url "https://github.com/withakay/spool/releases/download/v0.22.2/spool-v0.22.2-x86_64-apple-darwin.tar.gz"
-      sha256 "89adec7b30f34735a6e0017ea94620f838d40cafe8cf0d0a67399f50142acd1b"
+      sha256 "356125cc7df1354080190e62ebf24bd1970e5cea002061395fee95da83a6bcb3"
     end
 
     on_linux do
       url "https://github.com/withakay/spool/releases/download/v0.22.2/spool-v0.22.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4f6e0c4a4aa74ec7bd074d0d4d4743b2a15fdad34477b132d47686b9eca132e8"
+      sha256 "7ad8f4f73c069a3f8e71950f3609166a3327019c40e70b60c2a2106ff61ed67b"
     end
   end
 
   on_arm do
     on_macos do
       url "https://github.com/withakay/spool/releases/download/v0.22.2/spool-v0.22.2-aarch64-apple-darwin.tar.gz"
-      sha256 "05e76ac3bc1c9fcb683b4fe6edfbef0c3bf6887ab59002a4d5cf52c4563cd3c4"
+      sha256 "ea244adb38e293ad6ced9e92e4a5721b6a24ab87953230256de311a968b68772"
     end
 
     on_linux do
       url "https://github.com/withakay/spool/releases/download/v0.22.2/spool-v0.22.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b08eb67558433520b02f315441fc4c1179d334db8c8bcd92f6f3a49f67ffc1f7"
+      sha256 "2bd67694b4de7be254a8b00d68af2c2652552b4ca2bc1b7c9a021bed8c9d4644"
     end
   end
 
