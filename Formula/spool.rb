@@ -5,29 +5,29 @@ class Spool < Formula
   desc "Spec-driven workflow management for AI-assisted development"
   homepage "https://github.com/withakay/spool"
   license "MIT"
-  version "0.22.2"
+  version "0.24.0-local.202602051036"
 
   on_intel do
     on_macos do
-      url "https://github.com/withakay/spool/releases/download/v0.22.2/spool-v0.22.2-x86_64-apple-darwin.tar.gz"
-      sha256 "734d7048c5229cfa2a52673b1d50272b53f8431a1a4346842f53c0ac0d408217"
+      url "https://github.com/withakay/spool/releases/download/v0.24.0-local.202602051036/spool-v0.24.0-local.202602051036-x86_64-apple-darwin.tar.gz"
+      sha256 "30548a607d822fde81cc5a5302c15fc347b772f5062f3923818b0ba43368db8f"
     end
 
     on_linux do
-      url "https://github.com/withakay/spool/releases/download/v0.22.2/spool-v0.22.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0a17a66c05d0032a39718f5fb5de74fbf6ce54fe7b3666c81512302b3f321714"
+      url "https://github.com/withakay/spool/releases/download/v0.24.0-local.202602051036/spool-v0.24.0-local.202602051036-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "bb2accd2a74daf1660367b445b64626b4cecadc6c801891354599a309b8d5e62"
     end
   end
 
   on_arm do
     on_macos do
-      url "https://github.com/withakay/spool/releases/download/v0.22.2/spool-v0.22.2-aarch64-apple-darwin.tar.gz"
-      sha256 "f0682ae9e8bf017547447d9db1c67a0c28d55ea5660426be583b0ce25d3b5f29"
+      url "https://github.com/withakay/spool/releases/download/v0.24.0-local.202602051036/spool-v0.24.0-local.202602051036-aarch64-apple-darwin.tar.gz"
+      sha256 "96e8af02bb2a6c10bbb8cfc880bceeda22dcf05e3389f257f9e2abbfb0d79f3d"
     end
 
     on_linux do
-      url "https://github.com/withakay/spool/releases/download/v0.22.2/spool-v0.22.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f271bb79a321513c0fa0cf17d3862b81d3d024b7f93a806e0506fe327e762ae6"
+      url "https://github.com/withakay/spool/releases/download/v0.24.0-local.202602051036/spool-v0.24.0-local.202602051036-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f416db009564d0e2148b0b0df2dd852ef28156a62b96c957e1377211c9ef9e18"
     end
   end
 
